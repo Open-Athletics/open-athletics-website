@@ -40,6 +40,9 @@ We want to assure our community members that there is no commercial interest in 
 
 We take the security of your personal information seriously and employ appropriate technical and organizational measures to protect it from unauthorized access, disclosure, alteration, or destruction.
 
+## Deletion
+If you would like us to delete your user account, please contact the site administrators.  It will be our decision whether to delete old posts you have made, since these are already a part of public conversations.
+
 ## Terms of Use
 
 This community endorses the [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/).
