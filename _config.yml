@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : "Digital standards for Athletics" 
 name                     : "Open Athletics"
 description              : "Community group on open technologies for Athletics."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://openathletics.net"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "w3c/opentrack-cg"
 teaser                   : /assets/images/500x300.jpg
