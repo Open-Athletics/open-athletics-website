@@ -11,23 +11,23 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Open Athletics Community Group"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "Digital standards for Athletics" 
+name                     : "Open Athletics"
+description              : "Community group on open technologies for Athletics."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+repository               : "w3c/opentrack-cg"
+teaser                   : /assets/images/500x300.jpg
+logo                     : /assets/images/88x88.png
+masthead_title           : "Open Athletics Community Group"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
@@ -141,23 +141,26 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url:
+    - label: "Forum"
+      icon: "fas fa-comments"
+      url: "https://forum.openathletics.net"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+      url: "https://github.com/w3c/opentrack-cg"
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
       # url:
 
 
@@ -318,7 +321,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
